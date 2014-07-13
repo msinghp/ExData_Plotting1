@@ -46,7 +46,7 @@ plot(data$dateTime,data$Global_active_power,type="l",
 
   })
 
-legend("topright",lty=1,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),box.col="black",cex=.7)
+legend("topright",lty=1,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),cex=.7,bty="n")
 
 plot(data$dateTime,data$Global_reactive_power,type="l",
  ylab="Global_reactive_Power",
